@@ -83,9 +83,10 @@ export const Home = () => {
           marginTop: 24,
           padding: 16,
         }}
+        onClick={() => navigate("/who")}
         fullWidth
       >
-        VEM DÄR
+        VEM DÄR (RUSTET)
       </Button>
     </div>
   );
