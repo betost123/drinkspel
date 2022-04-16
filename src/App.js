@@ -7,6 +7,7 @@ import { Alias } from "./Alias";
 import { Who } from "./Who";
 import { Treman } from "./Treman";
 import { Pekleken } from "./Pekleken";
+import { Konka } from "./Konka";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/who' element={<Who />} />
         <Route path='/treman' element={<Treman />} />
         <Route path='/pekleken' element={<Pekleken />} />
+        <Route path='/konka' element={<Konka />} />
       </Routes>
     </BrowserRouter>
   );

@@ -90,6 +90,18 @@ export const Home = () => {
       >
         VEM DÄR (RUSTET)
       </Button>
+      <Button
+        style={{
+          backgroundColor: "#C4B5A6",
+          color: "#000",
+          marginTop: 24,
+          padding: 16,
+        }}
+        onClick={() => navigate("/konka")}
+        fullWidth
+      >
+        Konka
+      </Button>
     </div>
   );
 };
