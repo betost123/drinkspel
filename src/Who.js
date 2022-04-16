@@ -103,7 +103,7 @@ const imgData = [
   papi3,
   eminem,
   eminem2,
-  knaz2,
+
   hemsan2,
   charlie,
   hemsan,
@@ -139,7 +139,6 @@ const imgData = [
   elma3,
   betty4,
   limpan,
-  knaz,
 ];
 
 export const Who = () => {
