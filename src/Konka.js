@@ -17,6 +17,10 @@ const questionsData = [
   "säg vem som är fulast",
   "sug en kuk",
   "peka på vem som är snyggast",
+  "skriv till nån på tinder",
+  "låt oss ksicka et sms till valfri",
+  "pussa på en tjockis",
+  "säg till nån du älskar att du älskar hen",
 ];
 
 export const Konka = () => {
