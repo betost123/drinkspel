@@ -69,6 +69,8 @@ import denice from "./denice.png";
 import steffo from "./steffo.png";
 import quila from "./quila.png";
 import random from "./random.png";
+import knaz from "./knaz";
+import knaz2 from "./knaz2";
 
 const imgData = [
   tubro5,
@@ -103,6 +105,7 @@ const imgData = [
   papi3,
   eminem,
   eminem2,
+  knaz2,
   hemsan2,
   charlie,
   hemsan,
@@ -138,6 +141,7 @@ const imgData = [
   elma3,
   betty4,
   limpan,
+  knaz,
 ];
 
 export const Who = () => {
