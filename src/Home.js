@@ -49,9 +49,10 @@ export const Home = () => {
           marginTop: 24,
           padding: 16,
         }}
+        onClick={() => navigate("./treman")}
         fullWidth
       >
-        FÖRDOMAR / TUFFA VAL
+        TREMAN
       </Button>
       <Button
         style={{
@@ -72,6 +73,7 @@ export const Home = () => {
           marginTop: 24,
           padding: 16,
         }}
+        onClick={() => navigate("./pekleken")}
         fullWidth
       >
         PEKLEKEN
