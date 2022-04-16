@@ -69,8 +69,6 @@ import denice from "./denice.png";
 import steffo from "./steffo.png";
 import quila from "./quila.png";
 import random from "./random.png";
-import knaz from "./knaz";
-import knaz2 from "./knaz2";
 
 const imgData = [
   tubro5,
