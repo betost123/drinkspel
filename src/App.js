@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Button, Typography } from "@mui/material";
 import { Home } from "./Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { BodyTwister } from "./BodyTwister";
