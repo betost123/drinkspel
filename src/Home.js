@@ -80,12 +80,13 @@ export const Home = () => {
       </Button>
       <Button
         style={{
-          backgroundColor: "#C4B5A6",
+          backgroundColor: "#5C6678",
           color: "#000",
           marginTop: 24,
           padding: 16,
         }}
         onClick={() => navigate("/who")}
+        disabled
         fullWidth
       >
         VEM DÄR (RUSTET)
