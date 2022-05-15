@@ -8,6 +8,7 @@ import { Who } from "./Who";
 import { Treman } from "./Treman";
 import { Pekleken } from "./Pekleken";
 import { Konka } from "./Konka";
+import { Moral } from "./Moral";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/treman' element={<Treman />} />
         <Route path='/pekleken' element={<Pekleken />} />
         <Route path='/konka' element={<Konka />} />
+        <Route path='/moral' element={<Moral />} />
       </Routes>
     </BrowserRouter>
   );

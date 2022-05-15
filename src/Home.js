@@ -103,6 +103,18 @@ export const Home = () => {
       >
         Konka
       </Button>
+      <Button
+        style={{
+          backgroundColor: "#C4B5A6",
+          color: "#000",
+          marginTop: 24,
+          padding: 16,
+        }}
+        onClick={() => navigate("/moral")}
+        fullWidth
+      >
+        Moral
+      </Button>
     </div>
   );
 };
