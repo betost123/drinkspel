@@ -15,6 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='' element={<Home />} />
         <Route path='/bodytwister' element={<BodyTwister />} />
         <Route path='/jagharaldrig' element={<JagHarAldrig />} />
         <Route path='/alias' element={<Alias />} />

@@ -61,35 +61,10 @@ export const Home = () => {
           marginTop: 24,
           padding: 16,
         }}
-        onClick={() => navigate("/alias")}
-        fullWidth
-      >
-        ALIAS
-      </Button>
-      <Button
-        style={{
-          backgroundColor: "#C4B5A6",
-          color: "#000",
-          marginTop: 24,
-          padding: 16,
-        }}
         onClick={() => navigate("./pekleken")}
         fullWidth
       >
         PEKLEKEN
-      </Button>
-      <Button
-        style={{
-          backgroundColor: "#5C6678",
-          color: "#000",
-          marginTop: 24,
-          padding: 16,
-        }}
-        onClick={() => navigate("/who")}
-        disabled
-        fullWidth
-      >
-        VEM DÄR (RUSTET)
       </Button>
       <Button
         style={{
@@ -114,6 +89,31 @@ export const Home = () => {
         fullWidth
       >
         Moral
+      </Button>
+      <Button
+        style={{
+          backgroundColor: "#C4B5A6",
+          color: "#000",
+          marginTop: 24,
+          padding: 16,
+        }}
+        onClick={() => navigate("/alias")}
+        fullWidth
+      >
+        ALIAS
+      </Button>
+      <Button
+        style={{
+          backgroundColor: "#5C6678",
+          color: "#000",
+          marginTop: 24,
+          padding: 16,
+        }}
+        onClick={() => navigate("/who")}
+        disabled
+        fullWidth
+      >
+        VEM DÄR (RUSTET)
       </Button>
     </div>
   );
